@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <title>Download haskell-ci Binary</title>
 </head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        a, body {
+            font-size: 2rem;
+        }
+        a {
+            text-decoration: none;
+            color: #007acc;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .details-link {
+            font-size: 1.2rem;
+        }
+    </style>
 <body>
     <a href="https://github.com/haskell-ci-community/haskell-ci-binaries/releases/download/continuous/haskell-ci-linux-x86_64-musl-static.tar.gz">
         Download haskell-ci-linux-x86_64-musl-static.tar.gz
-    </a>
-    (<a href="https://github.com/haskell-ci-community/haskell-ci-binaries/releases/tag/continuous">(Details)</a>)
+    </a><br/>
+    (<a class="details-link" href="https://github.com/haskell-ci-community/haskell-ci-binaries/releases/tag/continuous">Details</a>)
 </body>
 </html>
